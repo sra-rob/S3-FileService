@@ -13,8 +13,7 @@ public class AWSConfiguration {
     @Bean
     public AWSCredentialsProvider awsCredentials() {
         return new AWSCredentialsProviderImpl(
-                "AKIAQJDP757LTZYCDG7A",
-                "/a9lO/W6V8Oibd1FmIE660wmCNPIzUs08tAxhT17"
+                
         );
     }
     @Bean
